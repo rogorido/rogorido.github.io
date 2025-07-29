@@ -4,7 +4,21 @@ export const profile = {
   institute: "",
   author_name: "Igor Sosa Mayor", // Author name to be highlighted in the papers section
   research_areas: [
-    { title: "History", description: "Early modern history", field: "history" },
+    {
+      title: "Early Modern History",
+      description: "Early modern history",
+      field: "history",
+    },
+    {
+      title: "Global History",
+      description: "Early modern history",
+      field: "history",
+    },
+    {
+      title: "Digital Humanities",
+      description: "Early modern history",
+      field: "history",
+    },
   ],
 };
 
