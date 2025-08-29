@@ -32,6 +32,7 @@ export const social = {
   scholar: "",
   inspire: "",
   arxiv: "",
+  orcid: "https://orcid.org/0000-0003-3645-8454",
 };
 
 export const template = {
