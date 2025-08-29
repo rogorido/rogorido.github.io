@@ -64,7 +64,8 @@ export const skills = [
   },
   {
     title: "Artificial Intelligence",
-    description: "LangChain (some knowledge), ",
+    description:
+      "LangChain (some knowledge), PyTorch (some knowledge), Transformers library from HuggingFace (some knowledge) ",
   },
 ];
 
