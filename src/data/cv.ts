@@ -34,12 +34,18 @@ export const education = [
 
 export const skills = [
   {
+    title: "Languages",
+    description:
+      "Spanish (native), German (most native), English (fluent), French (proficient), Italian (proficient), Latin (early modern latin), Esperanto",
+  },
+  {
     title: "Operating Systems",
     description: "Linux as System Administrator level (LPIC-1)",
   },
   {
     title: "Databases",
-    description: "Linux as System Administrator level (LPIC-1)",
+    description:
+      "PostgreSQL (very high level), MongoDB (proficient), MySQL/MariaDB (proficient).",
   },
   {
     title: "Programming languages",
@@ -49,12 +55,16 @@ export const skills = [
   {
     title: "Geographical Information Systems (GIS)",
     description:
-      "Javascript (high level), SQL (very high level), C++ (high level), R (high level), Python (high level).",
+      "PostGIS (high level), QGIS (high level), OpenLayers (proficient)",
   },
   {
-    title: "Languages",
+    title: "Web Technologies",
     description:
-      "Spanish (native), German (most native), English (fluent), French (proficient), Italian (proficient), Esperanto",
+      "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard)",
+  },
+  {
+    title: "Artificial Intelligence",
+    description: "LangChain (some knowledge), ",
   },
 ];
 
