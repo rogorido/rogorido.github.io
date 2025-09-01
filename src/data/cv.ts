@@ -17,11 +17,34 @@ export const experiences = [
 
 export const education = [
   {
-    school: "",
-    time: "",
-    degree: "",
-    location: "",
-    description: "",
+    school: "University of Valencia",
+    time: "1992 - 1997",
+    degree: "Licenciado en Filología Alemana",
+    location: "Valencia (Spain)",
+    description:
+      "Master in German Philology with 1.5 years Erasmus at the University Erlangen-Nürnberg.",
+  },
+  {
+    school: "University of Erlangen-Nürnberg",
+    time: "1999 - 2005",
+    degree: "PhD in Germanic Linguistics",
+    location: "Erlangen (Germany)",
+    description:
+      "PhD in German Linguistics with a research about comparative phraseology.",
+  },
+  {
+    school: "European University Institute",
+    time: "2006 - 2007",
+    degree: "Master in Research in History",
+    location: "Florence (Italy)",
+  },
+  {
+    school: "European University Institute",
+    time: "2006 - 2011",
+    degree: "PhD in History",
+    location: "Florence (Italy)",
+    description:
+      "PhD in Early modern history about catholic moral theology and social history.",
   },
   // {
   // 	school: 'University of Paris',
