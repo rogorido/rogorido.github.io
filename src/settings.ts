@@ -6,17 +6,20 @@ export const profile = {
   research_areas: [
     {
       title: "Early Modern History",
-      description: "Early modern history",
+      description:
+        "My main period of research is the early modern history, specially religious changes and their relationships with social and geopolitical changes.",
       field: "history",
     },
     {
       title: "Global History",
-      description: "Early modern history",
+      description:
+        "I'm interested in global phenonoma related to religious developments in the early modern period. Above all the relationships between religion, geopolitics and culture in Eurasia.",
       field: "history",
     },
     {
       title: "Digital Humanities",
-      description: "Early modern history",
+      description:
+        "I'm interested in Geographical Information Systems, Large Language Models, topic modelling, and other topics in the field.",
       field: "history",
     },
   ],
@@ -26,7 +29,7 @@ export const profile = {
 export const social = {
   email: "igor.sosa@eui.europeo",
   linkedin: "",
-  x: "https://www.x.com/rogorido",
+  x: "",
   github: "https://github.com/rogorido",
   gitlab: "",
   scholar: "",
