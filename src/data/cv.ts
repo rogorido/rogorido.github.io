@@ -1,9 +1,47 @@
 export const experiences = [
   {
-    company: "",
-    time: "",
-    title: "",
-    location: "",
+    company: "University of Valladolid (Spain)",
+    time: "2017 - 2024",
+    title: "Teacher and researcher",
+    location: "Valladolid (Spain)",
+    description:
+      "Seminars on history (historical methodology, European history, etc.)",
+  },
+  {
+    company: "University of Erfurt (Germany)",
+    time: "2012 - 2017",
+    title: "Teacher at the Institute für Geschichte",
+    location: "Erfurt (Germany)",
+    description:
+      "Seminars on history (consumption history, global history, historical methodology, etc.)",
+  },
+  {
+    company: "University of Koblenz-Landau (Germany)",
+    time: "2016 - 2017",
+    title: "Teacher at the Institute für Geschichte",
+    location: "Koblenz (Germany)",
+    description:
+      "Seminars on history (consumption history, global history, historical methodology, etc.)",
+  },
+  {
+    company: "Max-Weber-Kolleg für kultur- und sozialwissenschaftliche Studien",
+    time: "2012 - 2014",
+    title: "Postdoctoral researcher",
+    location: "University of Erfurt (Germany)",
+    description: "",
+  },
+  {
+    company: "European University Institute",
+    time: "2006 - 2011",
+    title: "Doctoral researcher",
+    location: "Florence (Italy)",
+    description: "",
+  },
+  {
+    company: "Instituto Cervantes",
+    time: "2000 - 2006",
+    title: "Spanish teacher for foreigners",
+    location: "Vienna (Austria)",
     description: "",
   },
   // {
