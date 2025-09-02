@@ -132,11 +132,11 @@ export const skills = [
 
 export const publications = [
   {
-    title: "",
-    authors: "",
-    journal: "",
-    time: "",
-    link: "",
+    title: "Visualizing Urban and Demographic Data in R with ggplot2",
+    authors: "Igor Sosa Mayor and Nabeel Siddiqui",
+    journal: "Programming Historian",
+    time: "2025",
+    link: "https://programminghistorian.org/en/lessons/urban-demographic-data-r-ggplot2",
     abstract: "",
   },
   // {
