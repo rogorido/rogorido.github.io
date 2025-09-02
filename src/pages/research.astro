@@ -10,10 +10,10 @@ const { research_areas } = profile;
 
 <Layout title={`Research | ${seo.default_title}`}>
   <div class="prose max-w-none">
-    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+    <h1 class="mb-8 text-3xl font-bold">Research Statement</h1>
 
     <div class="mb-12">
-      <p class="text-lg mb-6">
+      <p class="mb-6 text-lg">
         My main period of research is the early modern history, specially
         religious changes and their relationships with intellectual, social and
         geopolitical changes. I have published about catholic moral theology and
@@ -23,17 +23,17 @@ const { research_areas } = profile;
         global expansion, the presence and role played by the Orders' bishops in
         the global catholic expansion, and so on.
       </p>
-      <p class="text-lg mb-6">
+      <p class="mb-6 text-lg">
         I have extensively used methods of the so called Digital Humanities:
         content analysis, geoanalysis, and data visualizations, among others.
       </p>
     </div>
 
-    <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
-    <div class="grid gap-8 mb-12">
+    <h2 class="mb-6 text-2xl font-bold">Research Areas</h2>
+    <div class="mb-12 grid gap-8">
       {
         research_areas.map((area) => (
-          <div class="flex gap-6 items-start">
+          <div class="flex items-start gap-6">
             <BetterIcon>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const { research_areas } = profile;
               </svg>
             </BetterIcon>
             <div>
-              <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
+              <h3 class="mb-2 text-xl font-semibold">{area.title}</h3>
               <p class="text-base">{area.description}</p>
             </div>
           </div>
@@ -85,10 +85,17 @@ const { research_areas } = profile;
       ]}
       ]}
     />
-
-    <!-- <h2 class="text-2xl font-bold mb-6">Research Impact</h2>
-    <p class="text-lg mb-6">
-      My research has opened new frontiers in radioactivity studies, leading to practical applications in both scientific research and medical treatments. The discoveries have revolutionized our understanding of atomic structure and radioactive decay processes.
-    </p> -->
+    <ListProject
+      listTitle="Other projects in Github"
+      listItems={[
+        {
+          title: "Interface for the database EMD (Early Modern Dominicans)",
+          description:
+            "Graphical interface written in C++ using the Qt library for entering data into a vast relational PostgreSQL database related to the Preachers' Order in the early modern period.",
+          url: "https://github.com/rogorido/qtpredicadores",
+        },
+      ]}
+      ]}
+    />
   </div>
 </Layout>
