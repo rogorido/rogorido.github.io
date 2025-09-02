@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-
+import { Image } from "astro:assets";
+import Emacs from "@/assets/emacs.png";
 import { seo } from "@/settings";
 ---
 
@@ -15,34 +16,41 @@ import { seo } from "@/settings";
         >.
       </p>
     </div>
-
+    <div class="hidden size-192 lg:block">
+      <!-- Add your profile image -->
+      <Image
+        src={Emacs}
+        alt="Emacs in action"
+        class="mask mask-hexagon-2 h-full w-full"
+      />
+    </div>
     <!-- <div class="space-y-8">
-      {
-        ALL_PAPERS.map((paper) => (
-          <div class="card bg-base-200">
-            <div class="card-body">
-              <h2 class="card-title text-xl">
-                <a href={template.base + paper.link} class="hover:text-accent">
-                  {paper.title}
-                </a>
-              </h2>
-              <p class="text-base mb-2">
-                <span class="font-medium">Authors:</span>{" "}
-                <span set:html={highlightAuthor(paper.authors)} />
-              </p>
-              <p class="text-sm mb-3">
-                <span class="italic">{paper.journal}</span> • {paper.time}
-              </p>
-              <p class="text-sm text-base-content/80">{paper.abstract}</p>
-              <div class="card-actions justify-end mt-4">
-                <a href={paper.link} class="btn btn-sm btn-secondary text-secondary-content">
-                  Read Paper
-                </a>
-              </div>
-            </div>
-          </div>
-        ))
-      }
-    </div> -->
+         {
+         ALL_PAPERS.map((paper) => (
+         <div class="card bg-base-200">
+         <div class="card-body">
+         <h2 class="card-title text-xl">
+         <a href={template.base + paper.link} class="hover:text-accent">
+         {paper.title}
+         </a>
+         </h2>
+         <p class="text-base mb-2">
+         <span class="font-medium">Authors:</span>{" "}
+         <span set:html={highlightAuthor(paper.authors)} />
+         </p>
+         <p class="text-sm mb-3">
+         <span class="italic">{paper.journal}</span> • {paper.time}
+         </p>
+         <p class="text-sm text-base-content/80">{paper.abstract}</p>
+         <div class="card-actions justify-end mt-4">
+         <a href={paper.link} class="btn btn-sm btn-secondary text-secondary-content">
+         Read Paper
+         </a>
+         </div>
+         </div>
+         </div>
+         ))
+         }
+         </div> -->
   </div>
 </Layout>
