@@ -119,14 +119,14 @@ export const skills = [
       "PostGIS (high level), QGIS (high level), OpenLayers (proficient)",
   },
   {
-    title: "Web Technologies",
-    description:
-      "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard)",
-  },
-  {
     title: "Artificial Intelligence",
     description:
       "LangChain (some knowledge), PyTorch (some knowledge), Transformers library from HuggingFace (some knowledge) ",
+  },
+  {
+    title: "Web Technologies",
+    description:
+      "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard)",
   },
 ];
 
