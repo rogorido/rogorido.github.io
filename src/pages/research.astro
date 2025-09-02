@@ -2,7 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { seo, profile } from "@/settings";
 import BetterIcon from "@/components/ui/BetterIcon.astro";
-import List from "@/components/ui/List.astro";
+import ListProject from "@/components/ui/ListProject.astro";
 import { RESEARCH_ICONS } from "@/data/researchIcons";
 
 const { research_areas } = profile;
@@ -61,13 +61,14 @@ const { research_areas } = profile;
       }
     </div>
 
-    <List
-      listTitle="Current Projects"
+    <ListProject
+      listTitle="Some Projects in github"
       listItems={[
         {
-          title: "Radioactivity Studies",
+          title: "Atlantocracies",
           description:
-            "Investigation of radioactive properties in uranium minerals and isolation of new radioactive elements.",
+            "Carried out by the Universidad Pablo de Olavide of Seville (Spain),  the project focuses on the study of Iberian nobility in Spain and America, challenging the deep-rooted tradition of considering them as separate entities. The fundamental question of whether or not a transatlantic nobility, within the framework of the Hispanic Monarchy, exists is asked.",
+          url: "https://github.com/rogorido/atlantocracies",
         },
         {
           title: "Measurement Techniques",
