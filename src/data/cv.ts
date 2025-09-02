@@ -133,13 +133,39 @@ export const skills = [
 export const publications = [
   {
     title: "Visualizing Urban and Demographic Data in R with ggplot2",
-    authors: "Igor Sosa Mayor and Nabeel Siddiqui",
+    authors: "Igor Sosa Mayor, Nabeel Siddiqui",
     journal: "Programming Historian",
     time: "2025",
     link: "https://programminghistorian.org/en/lessons/urban-demographic-data-r-ggplot2",
     abstract: "",
   },
-  // {
+  {
+    title:
+      "El noble atribulado. Nobleza y teología moral en la Castilla moderna (1550-1650)",
+    authors: "Igor Sosa Mayor",
+    journal: "Marcial Pons",
+    time: "2018",
+    link: "https://dialnet.unirioja.es/metricas/documentos/LIB/756206",
+    abstract: "",
+  },
+  {
+    title:
+      "Catástrofes naturales e infraestructura religiosa en la Edad Moderna. Una propuesta de investigación ",
+    authors: "Igor Sosa Mayor",
+    journal: "Investigaciones históricas",
+    time: "2024",
+    link: "https://revistas.uva.es/index.php/invehisto/article/view/8424",
+    abstract: "",
+  },
+  {
+    title:
+      "Retos globales de una orden en expansión. El estudio en los capítulos generales dominicos (1570–1630).",
+    authors: "Igor Sosa Mayor",
+    journal: "Investigaciones históricas, nº Ext. pp. 209-240",
+    time: "2021",
+    link: "https://revistas.uva.es/index.php/invehisto/article/view/5448",
+    abstract: "",
+  }, // {
   // 	title: 'The Radiation of Uranium Compounds',
   // 	authors: 'Marie Curie',
   // 	journal: 'Comptes Rendus de l’Académie des Sciences',
