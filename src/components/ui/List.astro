@@ -6,14 +6,15 @@ interface Props {
     description: string;
   }[];
 }
-const {listTitle, listItems} = Astro.props
+const { listTitle, listItems } = Astro.props;
 ---
-<h2 class="text-2xl font-bold mb-6">{listTitle}</h2>
-<div class="grid gap-6 mb-12">
+
+<h2 class="mb-6 text-2xl font-bold">{listTitle}</h2>
+<div class="mb-12 grid gap-6">
   {
     listItems.map((item) => (
-      <div class="p-6 bg-base-200 rounded-xl text-base-content">
-        <h3 class="text-xl font-semibold mb-3">{item.title}</h3>
+      <div class="rounded-xl bg-base-200 p-6 text-base-content">
+        <h3 class="mb-3 text-xl font-semibold">{item.title}</h3>
         <p>{item.description}</p>
       </div>
     ))
