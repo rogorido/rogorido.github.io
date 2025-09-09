@@ -107,7 +107,7 @@ export const skills = [
   {
     title: "Artificial Intelligence",
     description:
-      "Retrieval-Augmented Generation, LangChain (some knowledge), PyTorch (some knowledge), Transformers library from HuggingFace (some knowledge).",
+      "Retrieval-Augmented Generation (some knowledge), Named Entity Recognition (some knowledge), LangChain (some knowledge), PyTorch (some knowledge), Transformers library from HuggingFace (some knowledge).",
   },
   {
     title: "Web Technologies",
