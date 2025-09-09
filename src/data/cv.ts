@@ -44,13 +44,6 @@ export const experiences = [
     location: "Vienna (Austria)",
     description: "",
   },
-  // {
-  // 	company: 'Radium Institute (Institut du Radium)',
-  // 	time: '1914 - 1934',
-  // 	title: 'Director',
-  // 	location: 'Paris, France',
-  // 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-  // },
 ];
 
 export const education = [
@@ -84,13 +77,6 @@ export const education = [
     description:
       "PhD in Early modern history about catholic moral theology and social history.",
   },
-  // {
-  // 	school: 'University of Paris',
-  // 	time: '1891 - 1895',
-  // 	degree: 'Master’s in Physics and Mathematics',
-  // 	location: 'Paris, France',
-  // 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-  // },
 ];
 
 export const skills = [
@@ -111,7 +97,7 @@ export const skills = [
   {
     title: "Programming languages",
     description:
-      "Javascript (high level), SQL (very high level), C++ (high level), R (high level), Python (high level).",
+      "Javascript (high level), SQL (very high level), C++ (high level), R (high level), Python (high level), LISP (some knowledge).",
   },
   {
     title: "Geographical Information Systems (GIS)",
@@ -165,12 +151,5 @@ export const publications = [
     time: "2021",
     link: "https://revistas.uva.es/index.php/invehisto/article/view/5448",
     abstract: "",
-  }, // {
-  // 	title: 'The Radiation of Uranium Compounds',
-  // 	authors: 'Marie Curie',
-  // 	journal: 'Comptes Rendus de l’Académie des Sciences',
-  // 	time: '1898',
-  // 	link: '#',
-  // 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
-  // },
+  },
 ];
