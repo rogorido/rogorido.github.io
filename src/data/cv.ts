@@ -97,11 +97,11 @@ export const skills = [
   {
     title: "Languages",
     description:
-      "Spanish (native), German (most native), English (fluent), French (proficient), Italian (proficient), Latin (early modern latin), Esperanto",
+      "Spanish (native), German (most native), English (fluent), French (proficient), Italian (proficient), Latin (early modern latin), Esperanto.",
   },
   {
-    title: "Operating Systems",
-    description: "Linux as System Administrator level (LPIC-1)",
+    title: "Linux",
+    description: "Linux as System Administrator level (LPIC-1).",
     url: "/skilldetails/linux",
   },
   {
@@ -119,7 +119,7 @@ export const skills = [
   {
     title: "Geographical Information Systems (GIS)",
     description:
-      "PostGIS (high level), QGIS (high level), OpenLayers (proficient)",
+      "PostGIS (high level), QGIS (high level), OpenLayers (proficient).",
     url: "/skilldetails/gis",
   },
   {
@@ -131,7 +131,7 @@ export const skills = [
   {
     title: "Web Technologies",
     description:
-      "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard)",
+      "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard).",
     url: "/skilldetails/web",
   },
 ];
