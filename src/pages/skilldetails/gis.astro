@@ -1,39 +1,54 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { Image } from "astro:assets";
-import Emacs from "@/assets/emacs.png";
-import List from "@/components/ui/List.astro";
+import { Code } from "astro:components";
+
+import { codesql, coder, codecpp, codejs } from "@/data/code";
 import { seo } from "@/settings";
 ---
 
 <Layout title={`GIS | ${seo.default_title}`}>
   <div class="prose max-w-none">
-    <h1 class="mb-8 text-3xl font-bold">Dotfiles</h1>
+    <h1 class="mb-8 text-3xl font-bold">Geographic Information Systems</h1>
     <div class="mb-12">
-      <p class="mb-6 text-lg">
-        I am a very experienced GNU/Linux user with a complex setup. Take a look
-        at <a href="https://github.com/rogorido/dotfiles" target="_blank"
-          >my dotfiles</a
-        >.
-      </p>
+      <p class="mb-6 text-lg">I am a very experienced GIS programmer. I</p>
     </div>
-    <div class="size-192 hidden lg:block">
-      <!-- Add your profile image -->
-      <Image
-        src={Emacs}
-        alt="Emacs in action"
-        class="mask mask-hexagon-2 h-full w-full"
-      />
-    </div>
+
+    <h2 class="mb-8 text-2xl font-bold">PostGIS</h2>
+
+    <p class="mb-6 text-lg">
+      I extensively use javascript for frontend and backend programming with
+      nodejs. I use <a href="https://vuejs.com" target="_blank">Vuejs</a> for many
+      frontend projects, like the webpage of the <a
+        href="https://github.com/rogorido/atlantocracies"
+        target="_blank"
+        >Atlantocracies project
+      </a>. I am also very experienced in programming <a
+        href="https://github.com/rogorido/apiatlantocracies"
+        target="_blank"
+      >
+        Application Programming Interfaces (APIs)
+      </a> with nodejs.
+    </p>
+    <Code code={codejs} lang="js" wrap />
+
+    <h2 class="mb-8 text-2xl font-bold">QGIS</h2>
+
+    <p class="mb-6 text-lg">
+      I frequently use <a href="https://qgis.org" target="_blank">QGIS</a> for my
+      publications. And I also have published maps created for the books of other
+      authors.
+    </p>
+
+    <h2 class="mb-8 text-2xl font-bold">OpenLayers</h2>
+
+    <p class="mb-6 text-lg">
+      I extensively use <a href="https://openlayers.org" target="_blank"
+        >OpenLayers</a
+      > for many frontend projects, like the webpage of the <a
+        href="https://github.com/rogorido/atlantocracies"
+        target="_blank"
+        >Atlantocracies project
+      </a>.
+    </p>
   </div>
 </Layout>
-
-<!-- <Layout title={`Skills | ${seo.default_title}`}>
-    {
-        skills.length > 0 && (
-            <section class="mb-12">
-                <List listTitle="Skills" listItems={skills} />
-            </section>
-        )
-    }
-</Layout> -->
