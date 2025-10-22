@@ -1,8 +1,22 @@
 export const experiences = [
   {
+    company: "Max-Planck Institut für Wissenschaftsgeschichte (Germany)",
+    time: "2025",
+    title: "Freelance Digital Humanities",
+    location: "Berlin (Germany)",
+    description: "Research project Atlantocracies",
+  },
+  {
+    company: "University of Pablo de Olavide (Spain)",
+    time: "2024 - 2025",
+    title: "Researcher and Web-developer",
+    location: "Valladolid (Spain)",
+    description: "Research project Atlantocracies",
+  },
+  {
     company: "University of Valladolid (Spain)",
     time: "2017 - 2024",
-    title: "Teacher and researcher",
+    title: "Researcher and teacher",
     location: "Valladolid (Spain)",
     description:
       "Seminars on history (historical methodology, European history, etc.)",
@@ -88,31 +102,37 @@ export const skills = [
   {
     title: "Operating Systems",
     description: "Linux as System Administrator level (LPIC-1)",
+    url: "/skilldetails/linux",
   },
   {
     title: "Databases",
     description:
       "PostgreSQL (very high level), MongoDB (proficient), MySQL/MariaDB (proficient).",
+    url: "/skilldetails/dbs",
   },
   {
     title: "Programming languages",
     description:
       "Javascript (high level), SQL (very high level), C++ (high level), R (high level), Python (high level), LISP (some knowledge).",
+    url: "/skilldetails/proglanguages",
   },
   {
     title: "Geographical Information Systems (GIS)",
     description:
       "PostGIS (high level), QGIS (high level), OpenLayers (proficient)",
+    url: "/skilldetails/gis",
   },
   {
     title: "Artificial Intelligence",
     description:
       "Retrieval-Augmented Generation (some knowledge), Named Entity Recognition (some knowledge), LangChain (some knowledge), PyTorch (some knowledge), Transformers library from HuggingFace (some knowledge).",
+    url: "/skilldetails/ai",
   },
   {
     title: "Web Technologies",
     description:
       "HTML5/CSS3, NodeJS (high level), NGINX-Server (high-level), VPN (wireguard)",
+    url: "/skilldetails/web",
   },
 ];
 
