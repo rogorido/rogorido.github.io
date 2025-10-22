@@ -1,0 +1,23 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { Code } from "astro:components";
+
+import { seo } from "@/settings";
+import { codesql, coder } from "@/data/code";
+---
+
+<Layout title={`Databases | ${seo.default_title}`}>
+  <div class="prose max-w-none">
+    <h1 class="mb-8 text-3xl font-bold">Databases</h1>
+    <p class="mb-6 text-lg">
+      I am a very experienced programmer in several languaes.
+    </p>
+
+    <h2 class="mb-8 text-2xl font-bold">Javascript</h2>
+    <Code code={`const foo = 'bar';`} lang="js" wrap />
+    <h2 class="mb-8 text-2xl font-bold">R</h2>
+    <Code code={coder} lang="r" wrap />
+    <h2 class="mb-8 text-2xl font-bold">SQL</h2>
+    <Code code={codesql} lang="sql" wrap />
+  </div>
+</Layout>

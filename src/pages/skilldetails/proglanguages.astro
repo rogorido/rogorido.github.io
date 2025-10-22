@@ -1,0 +1,64 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { Code } from "astro:components";
+import { Image } from "astro:assets";
+import Dominicans from "@/assets/dominicans.png";
+
+import { seo } from "@/settings";
+import { codesql, coder, codecpp, codejs } from "@/data/code";
+---
+
+<Layout title={`Programming languages | ${seo.default_title}`}>
+  <div class="prose max-w-none">
+    <h1 class="mb-8 text-3xl font-bold">Programming languages</h1>
+    <p class="mb-6 text-lg">
+      I am a very experienced programmer in several languaes: Javascript, SQL,
+      C++, R, Python other Emacs LISP.
+    </p>
+
+    <h2 class="mb-8 text-2xl font-bold">Javascript</h2>
+
+    <p class="mb-6 text-lg">
+      I extensively use javascript for frontend and backend programming with
+      nodejs. I use <a href="https://vuejs.com" target="_blank">Vuejs</a> for many
+      frontend projects, like the webpage of the <a
+        href="https://github.com/rogorido/atlantocracies"
+        target="_blank"
+        >Atlantocracies project
+      </a>. I am also very experienced in programming <a
+        href="https://github.com/rogorido/apiatlantocracies"
+        target="_blank"
+      >
+        Application Programming Interfaces (APIs)
+      </a> with nodejs.
+    </p>
+    <Code code={codejs} lang="js" wrap />
+
+    <h2 class="mb-8 text-2xl font-bold">SQL</h2>
+    <p class="mb-6 text-lg">
+      I am a very experienced SQL programmer and an enthusiast of <a
+        href="https://postgresql.org"
+        target="_blank">PostgreSQL</a
+      >.
+    </p>
+    <Code code={codesql} lang="sql" wrap />
+
+    <h2 class="mb-8 text-2xl font-bold">R</h2>
+    <Code code={coder} lang="r" wrap />
+
+    <h2 class="mb-8 text-2xl font-bold">C++</h2>
+    <p class="mb-6 text-lg">
+      I have <a
+        href="https://github.com/rogorido/qtpredicadores"
+        target="_blank">written interfaces in C++</a
+      > for entering data into a Postgresql database created for the analysis of
+      the Dominican Order in the early modern period using the library Qt.
+    </p>
+
+    <div class="size-192 hidden lg:block">
+      <Image src={Dominicans} alt="Interface in C++/Qt" class="h-full w-full" />
+    </div>
+
+    <Code code={codecpp} lang="cpp" wrap />
+  </div>
+</Layout>

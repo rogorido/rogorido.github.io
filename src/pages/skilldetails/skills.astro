@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { skills } from "../../data/cv";
+
+import List from "@/components/ui/List.astro";
+import { seo } from "@/settings";
+---
+
+<Layout title={`Skills | ${seo.default_title}`}>
+  {
+    skills.length > 0 && (
+      <section class="mb-12">
+        <List listTitle="Skills" listItems={skills} />
+      </section>
+    )
+  }
+</Layout>
