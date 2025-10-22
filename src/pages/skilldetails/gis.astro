@@ -1,8 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { Code } from "astro:components";
+import { Image } from "astro:assets";
+import Cagayan from "@/assets/buffercagayan.png";
 
-import { codesql, coder, codecpp, codejs } from "@/data/code";
+import { codesql, coder, codecpp, codejs, codepostgis } from "@/data/code";
 import { seo } from "@/settings";
 ---
 
@@ -10,33 +12,39 @@ import { seo } from "@/settings";
   <div class="prose max-w-none">
     <h1 class="mb-8 text-3xl font-bold">Geographic Information Systems</h1>
     <div class="mb-12">
-      <p class="mb-6 text-lg">I am a very experienced GIS programmer. I</p>
+      <p class="mb-6 text-lg">
+        I am a very experienced GIS programmer. I used frequently PostGIS, QGIS
+        and OpenLayers.
+      </p>
+    </div>
+
+    <div class="size-192 hidden lg:block">
+      <Image
+        src={Cagayan}
+        alt="Cagayán valley and missions"
+        class="h-full w-full"
+      />
     </div>
 
     <h2 class="mb-8 text-2xl font-bold">PostGIS</h2>
 
     <p class="mb-6 text-lg">
-      I extensively use javascript for frontend and backend programming with
-      nodejs. I use <a href="https://vuejs.com" target="_blank">Vuejs</a> for many
-      frontend projects, like the webpage of the <a
-        href="https://github.com/rogorido/atlantocracies"
+      I have used
+      <a href="www.postgis.net" target="_blank">PostGIS</a> for many analyses. See
+      among others the <a
+        href="https://github.com/rogorido/gismissions/tree/main/sqls"
         target="_blank"
-        >Atlantocracies project
-      </a>. I am also very experienced in programming <a
-        href="https://github.com/rogorido/apiatlantocracies"
-        target="_blank"
-      >
-        Application Programming Interfaces (APIs)
-      </a> with nodejs.
+        >Project gismissions
+      </a>.
     </p>
-    <Code code={codejs} lang="js" wrap />
+    <Code code={codepostgis} lang="sql" wrap />
 
     <h2 class="mb-8 text-2xl font-bold">QGIS</h2>
 
     <p class="mb-6 text-lg">
-      I frequently use <a href="https://qgis.org" target="_blank">QGIS</a> for my
-      publications. And I also have published maps created for the books of other
-      authors.
+      I frequently use <a href="https://qgis.org" target="_blank">QGIS</a>
+      for my publications. And I also have published maps created for the books of
+      other authors.
     </p>
 
     <h2 class="mb-8 text-2xl font-bold">OpenLayers</h2>
@@ -45,7 +53,7 @@ import { seo } from "@/settings";
       I extensively use <a href="https://openlayers.org" target="_blank"
         >OpenLayers</a
       > for many frontend projects, like the webpage of the <a
-        href="https://github.com/rogorido/atlantocracies"
+        href="https://github.com/rogorido/apiatlantocracies"
         target="_blank"
         >Atlantocracies project
       </a>.
