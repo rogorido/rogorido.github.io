@@ -1,10 +1,11 @@
 export const experiences = [
   {
-    company: "Max-Planck Institut für Wissenschaftsgeschichte (Germany)",
+    company: "Max-Planck Institut für Wissenschaftsgeschichte",
     time: "2025",
     title: "Freelance Digital Humanities",
     location: "Berlin (Germany)",
-    description: "Research project Atlantocracies",
+    description:
+      "Machine transcription and quality control of early modern alchemy texts",
   },
   {
     company: "University of Pablo de Olavide (Spain)",
