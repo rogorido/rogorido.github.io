@@ -1,7 +1,7 @@
 {
-  "name": "astro-academia",
+  "name": "portfolio-sosamayor",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0..1",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,22 +9,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.1.4",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
-    "@types/react": "^19.0.7",
-    "@types/react-dom": "^19.0.3",
-    "astro": "^5.7.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^3.4.17",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/rss": "^4.0.14",
+    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/tailwind": "^5.1.5",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^3.4.19",
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.16",
-    "daisyui": "^4.12.23",
-    "prettier": "^3.6.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "daisyui": "^4.12.24",
+    "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.14"
   }
