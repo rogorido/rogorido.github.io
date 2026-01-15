@@ -9,15 +9,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.4.2",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/tailwind": "^5.1.5",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.6",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
     "tailwindcss": "^3.4.19",
     "theme-change": "^2.5.0"
   },
