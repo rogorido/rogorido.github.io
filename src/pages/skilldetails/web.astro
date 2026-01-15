@@ -8,15 +8,16 @@ import List from "@/components/ui/List.astro";
 import { seo } from "@/settings";
 ---
 
-<Layout title={`Dotfiles | ${seo.default_title}`}>
+<Layout title={`Web technologies | ${seo.default_title}`}>
   <div class="prose max-w-none">
-    <h1 class="mb-8 text-3xl font-bold">Dotfiles</h1>
+    <h1 class="mb-8 text-3xl font-bold">Javascript Frameworks: VueJS</h1>
     <div class="mb-12">
       <p class="mb-6 text-lg">
-        I am a very experienced GNU/Linux user with a complex setup. Take a look
-        at <a href="https://github.com/rogorido/dotfiles" target="_blank"
-          >my dotfiles</a
-        >.
+        I am using everyday for my frontend projects the wonderful javascript
+        framework <a target="_blank" href="https://vuejs.org/"> VueJS</a>, in
+        most cases with <a target="_blank" href="https://nuxt.com/">Nuxt</a> (and
+        <a target="_blank" href="https://primevue.org/">PrimeVue</a>
+        ).
       </p>
     </div>
     <div class="size-192 hidden lg:block">
@@ -28,14 +29,16 @@ import { seo } from "@/settings";
       />
     </div>
   </div>
+  <div class="prose max-w-none">
+    <h1 class="mb-8 text-3xl font-bold">Static Site Generators</h1>
+    <div class="mb-12">
+      <p class="mb-6 text-lg">
+        Static Site Generators are one of the most useful developments of the
+        last years. I am a very experienced developer with some of them such as <a
+          target="_blank"
+          href="https://astro.build/">Astro</a
+        > with which this webpage has been made!
+      </p>
+    </div>
+  </div>
 </Layout>
-
-<!-- <Layout title={`Skills | ${seo.default_title}`}>
-    {
-        skills.length > 0 && (
-            <section class="mb-12">
-                <List listTitle="Skills" listItems={skills} />
-            </section>
-        )
-    }
-</Layout> -->
