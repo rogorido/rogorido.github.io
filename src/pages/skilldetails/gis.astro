@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { Code } from "astro:components";
 import { Image } from "astro:assets";
 import Cagayan from "@/assets/buffercagayan.png";
+import LibroIgnacio from "@/assets/libro-ignacio-fase4.webp";
 
 import { codesql, coder, codecpp, codejs, codepostgis } from "@/data/code";
 import { seo } from "@/settings";
@@ -43,9 +44,21 @@ import { seo } from "@/settings";
 
     <p class="mb-6 text-lg">
       I frequently use <a href="https://qgis.org" target="_blank">QGIS</a>
-      for my publications. And I also have published maps created for the books of
-      other authors.
+      for my publications. I am able to use very advanced features such as georeferencing,
+      personalized styles, time manager, etc. And I also have published maps created
+      for the books of other authors. For instance for the book <a
+        target="_blank"
+        href="https://www.marcialpons.es/libros/federico-ii-y-la-prusia-del-siglo-xviii/9788413570495/"
+        >Federico II y la prusia del siglo XVIII
+      </a> (by José Ignacio Ruiz Rodríguez).
     </p>
+    <div class="size-192 lg:block">
+      <Image
+        src={LibroIgnacio}
+        alt="Prussia's Expansion"
+        class="h-full w-full"
+      />
+    </div>
 
     <h2 class="mb-8 text-2xl font-bold">OpenLayers</h2>
 
