@@ -2,15 +2,13 @@
 import Layout from "@/layouts/Layout.astro";
 import { Image } from "astro:assets";
 import Emacs from "@/assets/emacs.png";
-import { skills } from "../../data/cv";
 
-import List from "@/components/ui/List.astro";
 import { seo } from "@/settings";
 ---
 
 <Layout title={`Web technologies | ${seo.default_title}`}>
   <div class="prose max-w-none">
-    <h1 class="mb-8 text-3xl font-bold">Javascript Frameworks: VueJS</h1>
+    <h1 class="mb-8 text-3xl font-bold">Javascript Frontends: VueJS</h1>
     <div class="mb-12">
       <p class="mb-6 text-lg">
         I am using everyday for my frontend projects the wonderful javascript
@@ -20,16 +18,34 @@ import { seo } from "@/settings";
         ).
       </p>
     </div>
-    <div class="size-192 hidden lg:block">
-      <!-- Add your profile image -->
-      <Image
-        src={Emacs}
-        alt="Emacs in action"
-        class="mask mask-hexagon-2 h-full w-full"
-      />
+
+    <!--Static sites-->
+    <h1 class="mb-8 text-3xl font-bold">Javascript Backends</h1>
+    <div class="mb-12">
+      <p class="mb-6 text-lg">
+        I am an expert in Application Programming Interfaces using the nodejs
+        stack. I'm often using <a target="_blank" href="https://fastify.dev/">
+          fastifyjs</a
+        > for as server. Since I use a lot PostgreSQL I need an interface for it.
+        For these cases I like the wonderful library pg-promise <a
+          target="_blank"
+          href="https://github.com/vitaly-t/pg-promise"
+        >
+          pg-promise</a
+        > a lot.
+      </p>
+      <p>
+        I have programmed several APIs. One of the most complex APIs I have
+        created is the API for my project <a
+          href="https://dominicans.georeligion.org/"
+          >Early Modern Dominican Order</a
+        > (EMDO). You can find <a
+          href="https://github.com/rogorido/apidominicans">here</a
+        > the API's code.'
+      </p>
     </div>
-  </div>
-  <div class="prose max-w-none">
+
+    <!--Static sites-->
     <h1 class="mb-8 text-3xl font-bold">Static Site Generators</h1>
     <div class="mb-12">
       <p class="mb-6 text-lg">
@@ -37,7 +53,10 @@ import { seo } from "@/settings";
         last years. I am a very experienced developer with some of them such as <a
           target="_blank"
           href="https://astro.build/">Astro</a
-        > with which this webpage has been made!
+        > with which <a
+          target="_blank"
+          href="https://github.com/rogorido/rogorido.github.io">this webpage</a
+        > has been made!
       </p>
     </div>
   </div>
