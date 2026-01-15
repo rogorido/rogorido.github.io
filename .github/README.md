@@ -1,4 +1,9 @@
-This is the code for generating my [Academic Portfolio](https://rogorido.github.io).
+# Academic Portfolio
+
+This is the code for generating the [Academic
+Portfolio](https://rogorido.github.io) of Igor Sosa Mayor. 
+
+![Portofolio](rogorido-portfolio.webp)
 
 It is based on [Astro Academia
 Documentation](https://github.com/maiobarbero/astro_academia) created by
