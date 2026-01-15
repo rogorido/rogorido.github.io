@@ -23,6 +23,26 @@ export const profile = {
       field: "history",
     },
   ],
+  skills: [
+    {
+      title: "GIS",
+      description:
+        "I am a very experienced GIS programmer. I used frequently PostGIS, QGIS and OpenLayers.",
+      field: "dighum",
+    },
+    {
+      title: "Frontend/Backend",
+      description:
+        "I develop frontend and backend applications using the newest javascript frameworks.",
+      field: "dighum",
+    },
+    {
+      title: "Databases",
+      description:
+        "I am a very experienced SQL programmer and an enthusiast of PostgreSQL.",
+      field: "dighum",
+    },
+  ],
 };
 
 // Set equal to an empty string to hide the icon that you don't want to display
@@ -36,6 +56,7 @@ export const social = {
   inspire: "",
   arxiv: "",
   orcid: "https://orcid.org/0000-0003-3645-8454",
+  mastodon: "https://fedihum.org/@rogorido",
 };
 
 export const template = {

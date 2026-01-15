@@ -1,34 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import Layout from "../layouts/Layout.astro";
 
-import { profile } from '@/settings'
-import { publications } from '@/data/cv'
-import ProfilePictures from '@/assets/fotoigorsosa.png'
-import Hero from '@/components/ui/Hero.astro'
-import Grid from '@/components/ui/Grid.astro'
-import ArticleList from '@/components/ui/ArticleList.astro'
+import { profile } from "@/settings";
 
-const { fullName, title, institute, research_areas } = profile
+import ProfilePictures from "@/assets/fotoigorsosa.png";
+import Hero from "@/components/ui/Hero.astro";
+import Grid from "@/components/ui/Grid.astro";
+
+const { fullName, title, institute, research_areas, skills } = profile;
 ---
 
 <Layout>
-	<!-- Hero Section -->
-	<section class='flex items-center gap-12 border-b pb-12'>
-		<Hero
-			fullName={fullName}
-			title={title}
-			institute={institute}
-			profilePicture={ProfilePictures}
-		/>
-	</section>
+  <!-- Hero Section -->
+  <section class="flex items-center gap-12 border-b pb-12">
+    <Hero
+      fullName={fullName}
+      title={title}
+      institute={institute}
+      profilePicture={ProfilePictures}
+    />
+  </section>
 
-	<!-- Research Areas -->
-	<section class='py-12 border-b'>
-		<Grid gridTitle='Research Areas' gridItems={research_areas} />
-	</section>
+  <!-- Research Areas -->
+  <section class="border-b py-12">
+    <Grid gridTitle="Research Areas" gridItems={research_areas} />
+  </section>
 
-	<!-- Recent Publications -->
-	<!-- <section class='py-12 border-t'>
+  <section class="border-b py-12">
+    <Grid gridTitle="Digital Humanities Skills" gridItems={skills} />
+  </section>
+
+  <!-- Recent Publications -->
+  <!-- <section class='py-12 border-t'>
 		<ArticleList listTitle='Recent Publications' listItems={publications} />
 	</section> -->
 </Layout>
