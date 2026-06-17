@@ -1,4 +1,12 @@
 export const experiences = [
+    {
+    company: "Ludwig-Maximilian-Universität München",
+    time: "2026",
+    title: "Wissenschaftlicher Mitarbeiter",
+    location: "München (Germany)",
+    description:
+      "Professurvertretung am Historischen Seminar",
+  },
   {
     company: "Max-Planck Institut für Wissenschaftsgeschichte",
     time: "2025",
