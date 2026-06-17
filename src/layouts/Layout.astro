@@ -2,8 +2,6 @@
 import { ClientRouter } from "astro:transitions";
 
 import BetterIcon from "../components/ui/BetterIcon.astro";
-import DarkLightController from "../components/ui/DarkLightController.astro";
-/* import ThemeSelector from '../components/ui/ThemeSelector.astro' */
 import Navbar from "../components/ui/Navbar.astro";
 import Head from "../components/Head.astro";
 
@@ -37,7 +35,7 @@ const {
       <input id="my-drawer" type="checkbox" class="drawer-toggle" />
       <!-- Drawer content -->
       <div class="drawer-content bg-base-100">
-        <div class="bg-base-100 z-50 text-base-content shadow-sm">
+        <div class="z-50 bg-base-100 text-base-content shadow-sm">
           <nav class="navbar">
             <div class="navbar-start">
               {
@@ -61,17 +59,14 @@ const {
                 </BetterIcon>
               </label>
             </div>
-            <div class="navbar-center lg:hidden text-lg font-black">
+            <div class="navbar-center text-lg font-black lg:hidden">
               {profile.title}
               {profile.fullName}
-            </div>
-            <div class="navbar-end">
-              {!template.menu_left && <DarkLightController />}
             </div>
           </nav>
         </div>
         <main
-          class="p-8 pt-10 lg:pt-16 lg:max-w-5xl max-w-full mx-auto min-h-screen flex flex-col justify-between"
+          class="mx-auto flex min-h-screen max-w-full flex-col justify-between p-8 pt-10 lg:max-w-5xl lg:pt-16"
         >
           <!-- Page content -->
           <slot />
